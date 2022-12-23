@@ -1,0 +1,312 @@
+.detalleProfeContainer{
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  background-image: url("./img/fott.png");
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 5% 95%;  
+padding-top: 4%;
+}
+.goBackBtn{
+  all:unset;
+  margin-left: 1%;
+  /* background-color: rgb(152, 155, 155,0.2); */
+  background-color: transparent;
+  border-radius: 50%;
+}
+.gobackArrow{
+  background-color: transparent;
+  width: 4rem;
+}
+.goBackBtn:hover{
+  background-color: rgb(246, 250, 253,0.2);
+}
+.ContainerProfeDe{
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(94, 90, 97, 0.8);
+  width: 85%;
+  height: 94%;
+  margin-left: 5%;
+  box-shadow: rgb(10, 21, 32) 0px 40px 60px -20px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.opPerfilDesProfe{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+.perfilFotoDesc{
+  width: 6.1rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 3px solid rgb(247, 232, 232);
+}
+
+.profeUserna{
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgba(255, 250, 250, 0.5);
+  width: 100%;
+  padding: 10px 0px 8px 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.profeNameCont{
+  margin-top: 8%;
+}
+
+.nomApeDe{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.emailDe{
+  font-size: 12px;
+  color: rgba(255, 250, 250, 0.5);
+}
+
+.opcContainer{
+  margin-top: 15%;
+ 
+}
+
+.opnoEleDe{
+  all:unset;
+  width: 100%;
+  height: 4rem;
+  
+}
+
+.opcionEleDe{
+  all:unset;
+  color: black;
+  margin-left: 5%;
+  width: 100%;
+  height: 4rem;
+  border-radius: 15px 0px 0px 15px ;
+  background-color: rgb(255, 255, 249);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.subContDe{
+  color: black;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 0.5%;
+  width: 99.5%;
+  height: 100%;
+  background-color:  rgb(255, 255, 249);
+  
+}
+
+.porqueEleDes{
+  margin-left: 10%;
+  width: 80%;
+}
+
+.porqueEleContDes{
+  padding-top: 5%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.precioboxDes{
+  margin-top: 15%;
+  width: 80%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 28px;
+  height: 6rem;
+  background-color: rgba(108, 79, 134, 0.6);
+  color: rgb(255, 255, 249);
+  font-weight: bolder;
+  border-radius: 2px;
+  text-shadow: 2px 2px #747474;
+
+}
+
+.preporH{
+  font-size: 20px;
+  padding-top: 0.2rem; 
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subTitleDe{
+  font-weight: bolder;
+}
+
+.certiMateCont{
+  margin-top: 5%;
+
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.certiContDe{
+  width: 80%;
+  margin-left:10% ;
+}
+
+.certiNoCont{
+  margin-top: 10%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 8px;
+  color: rgb(85, 85, 85);
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 14px;
+}
+
+.logoMaDe{
+  width: 2rem;
+}
+
+.logoMaDeCont{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  border-radius: 50%;
+  border: 1.2px solid white;
+}
+.logoMaDeContDo{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+ .nameLogoMaDeCont{
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 20% 80%;
+} 
+.nameMaDeCont{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0.2rem;
+  margin-left: 2rem;
+  height: 3rem;
+ width: 10rem;
+  background-color: black;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+.fotoCertificadoDeco{
+  width: 7rem;
+  margin: 3px 3px 3px 3px;
+  height: 5.5rem;
+  background-color: rgb(168, 166, 166);
+}
+.fotoCertificadoDe{
+ height: 100%;
+ object-fit: cover
+}
+.fotoCertificadoDeco:hover{
+  cursor: pointer;
+  border: 1.8px solid rgb(71, 70, 70);
+  
+}
+.certiSiCont{
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  grid-template-rows: max-content max-content;
+}
+
+.fky{
+  width: 10px ;
+  background-color: aqua;
+  height: 10px;
+}
+
+.fcdcPlus{
+  color: antiquewhite;
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+}
+
+.btnAddComOp{
+  all:unset;
+  position: relative;
+  cursor: pointer;
+  background-color:rgb(61, 51, 100) ;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.btnAddComOp:hover{
+  background-image: linear-gradient(to right, rgb(45, 18, 145) , rgb(126, 231, 250));
+}
+
+.comentsBtnAddCont{
+  display: grid ;
+  grid-template-columns: 100% 1%;
+}
+
+.subContDEChats{
+  
+  overflow-y: scroll;
+  height: 80vh;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.subContDecontChats{
+  padding-top: 2vh;
+}
+
+.detalle_comercial_dark  {
+  background-color: #101011;
+  color: aliceblue;
+}
+
+.detalle_description_profesor {
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
+
+.dark_casilla_de_datos {
+  background-color: #101011;
+  color: aliceblue;
+}
+/* #1A202C  #171923* #242529  101011 */

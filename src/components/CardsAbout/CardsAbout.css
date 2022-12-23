@@ -1,0 +1,6 @@
+.tainer{
+
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    margin-left: 8%;
+}

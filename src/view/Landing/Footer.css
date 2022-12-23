@@ -1,0 +1,28 @@
+
+.footer-contenedor{
+
+  background: #5591C5;
+  color: white;
+  
+}
+.footer{
+   
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+  }
+  
+.copy{
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+a{
+  color: white;}
+
+.fab-titulos-footer{
+  padding-bottom: 40px;
+}
+.fab-subtitulos-footer{
+  padding-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  width: 100%;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-color: rgb(70, 67, 67);
+}
+
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* font-family: "Ropa Sans"; */
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input:focus,
+select:focus,
+select,
+input.form-control:focus {
+  box-shadow: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+}
+
+.placeholder-wave {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin: 0;
+  margin-top: 0.6rem;
+}
+
+.placeholder-lg {
+  min-height: 2rem;
+}
+
+.certificadoLoader {
+  min-height: 6rem;
+  width: 50%;
+}
+
+.card {
+  margin-left: 0 !important;
+}
+
+

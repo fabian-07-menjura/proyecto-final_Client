@@ -1,0 +1,59 @@
+.nnnn {
+  width: 100%;
+}
+
+.NavColorCss {
+  width: 100%;
+  font-size: 22px;
+  /* background-image: linear-gradient(
+    to right,
+    rgb(39, 7, 185),
+    rgb(133, 159, 236)
+  ); */
+  /* background-image: linear-gradient(rgb(85, 145, 197), rgb(133, 159, 236)); */
+  background-color: #368abf;
+
+  color: aliceblue;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.imgAvatar {
+  border: 2px solid rgb(230, 227, 227);
+  height: 42px;
+  width: 40px;
+}
+
+.logoNav {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+
+.colAvatarDrop {
+  width: 10%;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.dro {
+  margin-top: 6px;
+}
+.btnBellNoti {
+  all: unset;
+  cursor: pointer;
+  color: antiquewhite;
+  width: 50%;
+}
+
+/* .dropdown-toggle::after {
+  color: transparent;
+  margin-bottom: 1rem;
+} */
+
+.Ajuste-Icons {
+  margin-right: 0.4rem;
+  margin-bottom: 0.2rem;
+}
