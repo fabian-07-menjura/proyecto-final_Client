@@ -1,4 +1,4 @@
-# Proyecto Individual 
+# Proyecto Grupal 
 <h2 align="center"> Plataforma para buscar profesores y reforzar estudios secundarios</h2>
 <p align="center">
   <img height="300" src="https://user-images.githubusercontent.com/86250631/209411417-1b65a67b-f3e9-4e20-b0a8-9bd036d8af16.jpg" />
