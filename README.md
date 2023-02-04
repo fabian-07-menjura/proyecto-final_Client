@@ -59,3 +59,5 @@ funcionalidades:
  <img width="90%" src="https://user-images.githubusercontent.com/86250631/209413857-d1234bb0-a212-4467-8c2e-4b107962fe52.png"/>
  </p>
  
+ <p>Ver pagina aca:</p>
+ 
